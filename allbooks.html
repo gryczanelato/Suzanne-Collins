@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Kamila Maciejczak EC2047353">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suzanne Collins</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css' rel='stylesheet'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+  <script type='text/javascript' src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js'></script>
+</head>
+<body>
+
+  <div id="navbar" class='my-navbar'>
+    <div class='my-navbar-logo'>
+      <a href="index.html" class="navbar-logo">
+        <img id="logo" src="images/Logo.png" width="280" alt="Suzanne Collins">
+      </a>
+      <a class="burger" href="javascript:void(0);" onclick='toggleNav()'><i class="fa fa-bars"></i></a>
+    </div>
+    <div class='my-navbar-buttons'>
+      <ul class='my-navbar-buttons-ul' id='my-navbar-buttons-ul'>
+        <script>
+          const navbar = document.getElementById('my-navbar-buttons-ul');
+          function toggleNav(){
+            navbar.classList.toggle("active");
+          }
+
+          document.addEventListener("scroll", () => {
+            navbar.classList.remove("active");
+          })
+          
+        </script>
+        <li>
+          <a href="index.html">HOME</a>
+        </li>
+        <li>
+          <a href="allbooks.html" class="active">ALL BOOKS</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SHOP</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" target="_blank" href="https://www.booksamillion.com/search?filter=&id=8491904148913&query=Suzanne+Collins">BOOK-A-MILLION</a>
+            <a class="dropdown-item" target="_blank" href="https://www.amazon.com/s?k=suzanne+collins&i=stripbooks-intl-ship&crid=2FN7IANCDQBPL&sprefix=suzanne+collins%2Cstripbooks-intl-ship%2C224&ref=nb_sb_ss_ts-doa-p_1_15">AMAZON</a>
+            <a class="dropdown-item" target="_blank" href="https://www.scholastic.co.uk/search/search?utf8=%E2%9C%93&search%5Bsite%5D=corporate&search%5Bquery%5D=suzanne+collins&search%5Bregion%5D=uk&log=t">SCHOLASTIC</a>
+            <a class="dropdown-item" target="_blank" href="https://www.penguinrandomhouseaudio.com/search/?q=suzanne+collins">LISTENING LIBRARY</a>
+            <a class="dropdown-item" target="_blank" href="https://www.indiebound.org/search/book?keys=suzanne+collins">INDIE BOUND</a>
+          </div> 
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">DISCOVER</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="discover.html">SUZANNE COLLINS</a>
+            <a class="dropdown-item" href="discover.html">HUNGER GAMES</a>
+            <a class="dropdown-item" href="discover.html">UNDERLAND CHRONICLES</a>
+          </div>
+        </li>
+        <li>
+          <a href="movies.html">MOVIES</a>
+        </li>
+        <li>
+          <a href="contact.html">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="main-picture">
+    <img class="img-responsive" id="back-picture" src="images/MainPicture2.png" alt="Hunger Games">
+  </div>
+
+  <div class="home-content">
+    <div class="header-author">
+      <div class="splatter-text1">
+        <img src="images/Splatter1.png" alt="Splatter1" class='splatter-image'>
+        <h1 class="title1">VARIETY OF STORIERS</h1>
+        <hr class='break-line'>
+      </div>
+    </div>
+  </div>
+
+  <div class="book-container">
+    <div class="snd-book-container">
+      <div class="book-variety">
+          <div class="book-photo">
+            <img src="images/The Hunger Games2.jpg" alt="The Hunger Games">
+          </div>
+          <div class="book-set">
+            <div class="book-title">
+              <h3>THE HUNGER GAMES</h3>
+            </div>
+            <div class="book-desc">
+              <h4>Katniss is a 16-year-old girl living with her mother and younger 
+                sister in the poorest district of Panem, the remains of what used 
+                be North America. Long ago the districts waged war on the Capitol 
+                and were defeated. As part of the surrender terms, each district 
+                agreed to send one boy and one girl to appear in an annual televised 
+                event called, "The Hunger Games." The terrain, rules, and level of 
+                audience participation may change but one thing is constant: kill or 
+                be killed. When her sister is chosen by lottery, Katniss steps up to 
+                go in her place.<br><em>(Scholastic Press, 2008)</em></h4>
+            </div>
+          </div>
+      </div>
+      <div class="book-variety">
+          <div class="book-photo">
+            <img src="images/Catching Fire.jpg" alt="Catching Fire">
+          </div>
+          <div class="book-set">
+            <div class="book-title">
+              <h3>CATCHING FIRE</h3>
+            </div>
+            <div class="book-desc">
+              <h4>Much to her shock, Katniss has fueled an unrest she's afraid she cannot 
+                stop. And what scares her more is that she's not entirely convinced she 
+                should try. As time draws near for Katniss and Peeta to visit the districts 
+                on the Capitol's cruel Victory Tour, the stakes are higher than ever. If 
+                they can't prove, without a shadow of a doubt, that they are lost in their 
+                love for each other, the consequences will be horrifying.<br><em>(Scholastic Press, 
+                2009)</em></h4>
+            </div>
+          </div>
+      </div>
+      <div class="book-variety">
+          <div class="book-photo">
+              <img src="images/Mockingjay.jpg" alt="Mockingjay">
+          </div>
+          <div class="book-set">
+            <div class="book-title">
+              <h3>MOCKINGJAY</h3>
+            </div>
+            <div class="book-desc">
+              <h4>Katniss Everdeen, girl on fire, has survived, even though her home has been 
+                destroyed. There are rebels. There are new leaders. A revolution is unfolding.
+                <br><em>(Scholastic Press, 2010)</em></h4>
+            </div>
+          </div>
+      </div>
+      <div class="book-variety">
+          <div class="book-photo">
+              <img src="images/Gregor The Overlander.jpg" alt="Gregor The Overlander">
+          </div>
+          <div class="book-set">
+            <div class="book-title">
+              <h3>GREGOR THE OVERLANDER</h3>
+            </div>
+            <div class="book-desc">
+              <h4>Meet Gregor, a kid from New York City, who falls out of his laundry room into 
+                a fantastical subterranean world called the Underland. Accompanied by his toddler 
+                sister, Boots, he encounters giant talking creatures-- cockroaches, bats, spiders 
+                and rats--and an unusual society of humans. And they’re all expecting him...<br><em>(Scholastic 
+                Press, 2003)</em></h4>
+            </div>
+          </div>
+      </div>
+      <div class="book-variety">
+          <div class="book-photo">
+              <img src="images/Gregor Prophecy of Bane.jpg" alt="Gregor and the Prophecy of Bane">
+          </div>
+          <div class="book-set">
+            <div class="book-title">
+              <h3>GREGOR AND THE PROPHECY OF BANE</h3>
+            </div>
+            <div class="book-desc">
+              <h4>When giant roaches kidnap Boots and spirit her back to the Underland, Gregor 
+                follows to retrieve her. Soon he discovers that they are both implicated in “The 
+                Prophecy of Bane,” which warns of the dangers of a terrifying white rat. Guess 
+                whose job it is to destroy it?<br><em>(Scholastic Press, 2004)</em></h4>
+            </div>
+          </div>
+      </div>
+      <div class="book-variety">
+          <div class="book-photo">
+              <img src="images/Gregor Marks of Secret.jpg" alt="Gregor and The Marks of Secret">
+          </div>
+          <div class="book-set">
+            <div class="book-title">
+              <h3>GREGOR AND THE MARKS OF SECRET</h3>
+            </div>
+            <div class="book-desc">
+              <h4>Gregor sets out to solve a mystery involving the Underland mice and ends up 
+                discovering a terrible secret. This book leads right into the fifth and final 
+                book of the series, "Gregor and the Code of Claw".<br><em>(Scholastic Press, 2006)</em></h4>
+            </div>
+          </div>
+      </div>
+      <div class="book-variety">
+          <div class="book-photo">
+              <img src="images/Gregor Code of Claw.jpg" alt="Gregor and the Code of Claw">
+          </div>
+          <div class="book-set">
+            <div class="book-title">
+              <h3>GREGOR AND THE CODE OF CLAW</h3>
+            </div>
+            <div class="book-desc">
+              <h4>Everyone in the Underland has been taking great pains to keep The Prophecy 
+                of Time from Gregor. Gregor knows it must say something awful but he never imagined 
+                just how awful: It calls for the warrior's death. Now, with an army of rats 
+                approaching, and his mom and sister still in Regalia, Gregor the warrior must gather 
+                up his courage to help defend Regalia and get his family home safely. The entire 
+                existence of the Underland is in Gregor's hands, and time is running out. There is a 
+                code to be cracked, a mysterious new princess, Gregor's burgeoning dark side, and a 
+                war to end all wars.<br><em>(Scholastic Press, 2007)</em></h4>
+            </div>
+          </div>
+      </div>
+      <div class="book-variety">
+          <div class="book-photo">
+              <img src="images/Gregor Curse of Warmbloods.jpg" alt="Gregor and the Curse of The warmbloods">
+          </div>
+          <div class="book-set">
+            <div class="book-title">
+              <h3>GREGOR AND THE CURSE OF THE WARMBLOODS</h3>
+            </div>
+            <div class="book-desc">
+              <h4>Gregor and Boots must return to the Underland to help find a cure for a deadly 
+                plague called the Curse of the Warmbloods. Gregor is desperate to succeed because, 
+                along with several of his Underland friends, a member of his own family is stricken. 
+                <br><em>(Scholastic Press, 2005)</em></h4>
+            </div>
+          </div>
+      </div>
+      <div class="book-variety">
+          <div class="book-photo">
+              <img src="images/Charlie McButton.jpg" alt="When Charlie McButton lost power">
+          </div>
+          <div class="book-set">
+            <div class="book-title">
+              <h3>WHEN CHARLIE MCBUTTON LOST POWER</h3>
+            </div>
+            <div class="book-desc">
+              <h4>When a thunderstorm knocks out the electricity, Charlie McButton's whole tech empire 
+                comes tumbling down. He needs batteries–FAST. But the only batteries are inside his baby 
+                sister's beloved talking doll. Will he resort to desperate measures, and cause his sister 
+                to have a meltdown of her own? Or will he snap out of his computer craze long enough to 
+                realize sisters can be fun, even without batteries?<br><em>(Penguin Group, 2005)</em></h4>
+            </div>
+          </div>
+      </div>
+      <div class="book-variety">
+          <div class="book-photo">
+              <img src="images/Year of the Jungle.jpg" alt="Year of the Jungle">
+          </div>
+          <div class="book-set">
+            <div class="book-title">
+              <h3>YEAR OF THE JUNGLE</h3>
+            </div>
+            <div class="book-desc">
+              <h4>When Suzy's father is called to war in a faraway jungle, she struggles to deal with his 
+                absence.<br><em>(Scholastic Press, 2013)</em></h4>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <div class="newsletter">
+    <div class="register">
+      <div class="reg-title">
+        <h3>REGISTER AND STAY INFORMED</h3>
+      </div>
+      <div class="group-form">
+        <div class="news-form">
+          <label for="email"></label>
+            <input type="email" class="form-control form-control-lg" placeholder="Enter your email" id="email">
+        </div>
+        <div class="policy-button">
+          <button type="button">Sign up</button>
+          <a class="policy" href="#">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="support-links">
+      <div class="links">
+        <a target="blank" href="https://www.penguin.com/" alt="Penguin">PENGUIN</a>
+        <a target="blank" href="https://www.authorsguild.org/" alt="Authors Guild">AUTHORS GUILD</a>
+        <a target="blank" href="https://www.npr.org/2020/05/19/858059553/the-ballad-of-songbirds-and-snakes-is-a-lackluster-prequel-to-the-hunger-games" alt="NPR">NPR</a>
+      </div>
+    </div>
+    <div class="legal-links">
+      <div class="links">
+        <a href="#">LEGAL</a>
+        <a href="#">PRIVACY & COOKIE POLICY</a>
+        <a href="#">TERMS OF USE</a>
+        <a href="contact.html">CONTACT</a>
+      </div>
+    </div>
+    <hr class="break-line2" width="1000px">
+    <div class="copyright">
+      <p class="text-center">Copyright @2022 | Designed by Kamila Maciejczak EC2047353</p>
+    </div>
+  </div>
+  
+</body>
+</html>
