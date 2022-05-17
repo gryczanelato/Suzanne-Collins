@@ -124,7 +124,6 @@ ul {
   color: black;
   text-decoration: none;
   font-size: 25px;
-  font-family: 'AgencyFB';
 }
 
 .dropdown-item:hover {
@@ -728,7 +727,7 @@ ul {
       width: 100%;
       background-color: white;
       position: absolute;
-      z-index: 3;
+      z-index: 4;
       top: 0;
       right: 0;
       display: none;
@@ -881,55 +880,45 @@ ul {
 
     .form-details {
       display: block;
-      justify-content: center;
     }
 
     .form-name {
       display: block;
-      justify-content: center;
     }
 
     .name-info {
       display: block;
-      justify-content: center;
     }
 
     .clear-field-name input {
       display: block;
-      justify-content: center;
       width: 100%;
     }
 
     .form-email {
       display: block;
-      justify-content: center;
     }
 
     .email-info {
       display: block;
-      justify-content: center;
     }
 
     .clear-field-email input {
       display: block;
-      justify-content: center;
       width: 100%;
     }
 
     .form-subject {
       display: block;
-      justify-content: center;
       padding: 20px;
     }
 
     .subject-info {
       display: block;
-      justify-content: center;
     }
 
     .text-area {
       display: block;
-      justify-content: center;
     }
 
     .text-area textarea {
@@ -943,6 +932,5 @@ ul {
 @media(max-width: 1200px) {
     .books-select {
       display: block;
-      justify-content: center;
     }
   }
