@@ -657,6 +657,11 @@ ul {
   justify-content: center;
 }
 
+.name-info label {
+  font-family: 'AgencyFB' !important;
+  font-size: 22px !important;
+}
+
 .clear-field-name input{
   display: block;
   justify-content: center;
@@ -678,6 +683,11 @@ ul {
   justify-content: center;
 }
 
+.email-info label {
+  font-family: 'AgencyFB' !important;
+  font-size: 22px !important;
+}
+
 .clear-field-email input {
   display: block;
   justify-content: center;
@@ -697,6 +707,11 @@ ul {
   display: flex;
   justify-content: center;
   margin-top: 50px;
+}
+
+.subject-info label {
+  font-family: 'AgencyFB' !important;
+  font-size: 22px !important;
 }
 
 .text-area {
