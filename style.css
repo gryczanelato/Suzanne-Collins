@@ -261,6 +261,9 @@ ul {
 .caption {
     display: block;
     text-align: center;
+    font-family: 'OpenSans' !important;
+    font-size: 25px !important;
+    padding-top: 10px;
 }
 
 .newsletter {
@@ -395,6 +398,10 @@ ul {
 
 .links a:hover:after {
   transform: scaleX(1);
+}
+
+.break-line2 {
+  width: 1000px;
 }
 
 .copyright p {
