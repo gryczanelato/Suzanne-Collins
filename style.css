@@ -292,6 +292,21 @@ ul {
     font-size: 35px;
 }
 
+.news-form input{
+    height: 35px;
+    min-width: 220px;
+    display: flex;
+    background-color: #ffffff;
+    margin-top: 19px;
+}
+
+.group-form {
+    justify-content: center;
+    display: flex;
+    max-width: 100%;
+    margin: 10px
+}
+
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -301,20 +316,6 @@ ul {
   padding: 0;
   position: absolute;
   width: 1px;
-}
-
-.news-form input{
-    height: 35px;
-    min-width: 220px;
-    display: flex;
-    background-color: #ffffff;
-}
-
-.group-form {
-    justify-content: center;
-    display: flex;
-    max-width: 100%;
-    margin: 10px
 }
 
 .policy-button {
